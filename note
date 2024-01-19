@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Nossos Clientes - Empresa</title>
+    <meta charset="utf-8"><!--tag self closing-->
+    <link rel="stylesheet" type="text/css" href="../styles/menu-footer.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/clients.css">
+
+</head>
+
+<body class="fundo">
+    <div id="menu">
+        <img src="../img/banner.png" class="logo">
+        <a href="../index.html">Home</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="clientes.html" class="current">Nossos Clientes</a>
+        <a href="contato.html">Contato</a>
+        <a href="planos.html">Planos</a>
+    </div>
+
+    <div id="conteudo">
+
+        <div id="vantagens">
+            <h1>Vantagens em ser Nosso Cliente</h1>
+
+            <p><img src="../img/target.png"><br>Soluções Personalizadas</p>
+            <p><img src="../img/qualidade.png"><br>Qualidade Garantida</p>
+            <p><img src="../img/experience.png"><br>Experiência e Expertise</p>
+            <p><img src="../img/inovation.png"><br>Inovação Constante</p>
+            <p><img src="../img/suport.png"><br>Suporte Excepcional</p>
+        </div>
+
+        <br>
+
+
+        <h2>O que nossos clientes estão dizendo:</h2>
+        <div class="coments">
+            <div class="coments1">
+                <p><em>"O software da <strong>Empresa</strong> simplificou nossos processos internos e economizou muito
+                        tempo. É incrível!"</em></p>
+                <h4>Marta Almeida</h4>
+
+                <br>
+            </div>
+
+            <div class="coments1">
+                <p><em>"Estou impressionado com o atendimento ao cliente da Empresa. Sempre recebo suporte rápido e
+                        eficiente."</em>
+                </p>
+                <h4>Hotel's Carmo</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="rodape">
+        <h6>Todos os direitos reservados &copy; 2023 Joice Toledo</h6>
+    </div>
+
+</body>
+
+</html>
