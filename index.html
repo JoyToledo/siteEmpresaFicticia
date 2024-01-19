@@ -1,32 +1,68 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Empresa</title>
 
-<head>
-    <title>Home - Empresa</title>
-    <meta charset="utf-8"><!--tag self closing-->
-    <link rel="stylesheet" type="text/css" href="./styles/menu-footer.css">
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-</head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
 
 <body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light p-4"  style="background-color: #E6D165;">
+      <!--Logo/nome-->
+      <a href="" class="navbar-brand">Empresa</a>
 
-    <div id="menu">
-        <img src="./img/banner.png" class="logo" >
-        <a href="./index.html" class="current">Home</a>
-        <a href="./pages/sobre.html">Sobre Nós</a>
-        <a href="./pages/clientes.html">Nossos Clientes</a>
-        <a href="./pages/contato.html">Contato</a>
-        <a href="./pages/planos.html">Planos</a>
-    </div>
+      <!--Menu Hamburguer-->
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#nav-target"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div id="conteudo">
-       <p>testeee</p> 
-    </div>
+      <!--Navegação-->
+      <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="./pages/sobre.html" class="nav-link">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/clientes.html" class="nav-link">Nossos Clientes</a>
+          </li> 
+          <li class="nav-item">
+            <a href="./pages/contato.html" class="nav-link">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/planos.html" class="nav-link">Planos</a>
+          </li>
+        </ul>
+    </nav>
+    <br /><br />
 
-    <div id="rodape">
-        <h6>Todos os direitos reservados &copy; 2023 Joice Toledo</h6>
-    </div>
-</body>
+    <span class="fixed-bottom text-center p-2" style="background-color: #E6D165;"><b>Joice Toledo </b>& Todos direitos reservados</span>
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
